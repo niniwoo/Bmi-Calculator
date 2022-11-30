@@ -1,0 +1,148 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* .parent-style {
+  width: 70%;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  /* gap: 5px; 
+
+  justify-content: space-between;
+}
+
+
+.cardBody {
+  width: 250px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.img-css{
+  width: 100%;
+} */
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: Arial, Helvetica, sans-serif;*/
+  
+  font-family: 'Cinzel', serif; 
+   background-color: darkkhaki;
+}
+
+
+.btn{
+  margin-top: 5px;
+}
+
+.choice-country{
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 13px;
+  font-size: 2rem;
+
+}
+
+.list{
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+.u-list{
+  background-color: #f1f1f1;
+  padding-top: 10px;
+  border-radius: 1%;
+  /* how to hide when list is empty? */
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {
+  margin: 5px 35px 5px 35px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  /* margin-right: px; */
+  height: 300px;
+
+}
